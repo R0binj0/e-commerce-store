@@ -14,7 +14,7 @@ const CartPage = () => {
         setIsMounted(false)
     }, [])
 
-    if(!isMounted){
+    if(isMounted){
         return null
     }
 
